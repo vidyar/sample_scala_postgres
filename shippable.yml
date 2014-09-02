@@ -9,6 +9,7 @@ addons:
 before_script:
   - psql -U postgres -f pg.sql
 
+
 script:
   - export SBT_OPTS="-XX:+CMSClassUnloadingEnabled -XX:PermSize=256M -XX:MaxPermSize=512M"
   - sbt clean scoverage:test
