@@ -8,6 +8,7 @@ addons:
 
 before_script:
   - psql -U postgres -f pg.sql
+  
 env:
  - secure: DV19SIjlY+bYC3He0tJj944YjKfc7tp+ur/K9UPvZKAj1LjC+MZ6qSkAEGesosvrVAAnHlyNUpPIqKdvW2dZ4BEhNicOqtMD2aWcKNWSyJNPP8ydPJFGuABaac4060ZnZMgV8vUqFQvxtL6aEy2k8egMF0YxJdwi2sUuBVYosZp8QPEGw6PdLBLR7jQwSFFO3jSgCIWOcRDLXWZXQBW0KZbT1Eg6wHXweJ2kJoNDMFKS2+LBxPMq0ZGypbCBuF9nHXPiuuCSXKiny0j83JhY0Ern+KO/X3awjyR67wvSyPBQXs30cdOA9IvXvpHGNWinlu+AaJjIx7AKJEJgIiCFHg==
 
